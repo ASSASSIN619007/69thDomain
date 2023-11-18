@@ -11,7 +11,7 @@
   </form>
   <script>
     function checkPassword() {
-      const password = document.getElementById("password").value;
+      const password ="Hello" ;
       if (password === "your_password") {
         window.location.href = "https://www.example.com/your_page.html";
       } else {
